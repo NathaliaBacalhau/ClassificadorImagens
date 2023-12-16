@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Classificador de Veículos</title>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
+    <link rel="stylesheet" href="styles.css" />
+    <link rel="icon" type="image/png" href="icone.png";
+  </head>
+  <body>
+    <div class="wrapper">
+      <div class="box">
+        <div class="input-box">
+          <div class="title">
+            <img src="icone.png" />
+            <h2 class="classificador-area-title">Classificador de Veículos</h2>
+          </div>
+          <form action="">
+            <input type="file" id="upload" accept=".png, .jpg, .jpeg" hidden />
+            <label for="upload" class="uploadlabel">
+              <span><i class="fa fa-cloud-upload"></i></span>
+              <p>Clique para carregar a imagem</p>
+            </label>
+          </form>
+        </div>
+
+        <div id="filewrapper">
+          <h3 class="uploaded">Imagens carregadas</h3>
+          <!-- <div class="showfilebox">
+                    <div class="left">
+                        <span class="filetype">jpg</span>
+                        <h3>carro.jpg</h3>
+                    </div>
+                    <div class="right">
+                        <span>&#215;</span>
+                    </div>
+                </div>-->
+        </div>
+      </div>
+    </div>
+
+    <script src="script.js"></script>
+  </body>
+</html>
